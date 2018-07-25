@@ -1,0 +1,148 @@
+
+html{
+    width:100%;
+    height: 100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+    font-family: 'EB Garamond', serif !important;
+    font-family: 'Lato', sans-serif !important;
+    /* padding: 20px; */
+}
+
+header{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+header h1{
+    color:#666!important;
+    /* text-align: center; */
+    letter-spacing: .4em;
+    font-weight: 200;
+    font-size: 2em!important;
+    float: left;
+}
+
+
+
+.textholder{
+    padding:4% 0 18%;
+    text-align: center;
+    letter-spacing: .49em;
+}
+
+
+.textholder h2{
+    color:red;
+}
+
+.parallax h3{
+    font-size: 2.2em;
+    text-align: center;
+    background-color:rgba(255,255,255,0.53);
+    padding: .5em;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .3em;
+}
+
+footer{
+    text-align: center;
+    padding:5em 0;  
+}
+
+
+.boxes h4{
+    text-align: center;
+    letter-spacing: .3em;
+    font-size: 1em;
+}
+
+
+
+
+.arrow{
+    background-image: url(/images/light.jpeg);
+    width: 100%;
+    height: 10em;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:5em 0;
+}
+
+form{
+    width: 80%;
+    margin:5em auto;
+    
+}
+
+textarea{
+    width:100%;
+    padding: 75px 0;
+
+}
+
+input{
+    display:inline-block;
+    width: 100%;
+    padding:10px 0;
+    margin:5px auto 20px;
+}
+
+label{
+    display: inline-block;
+    text-align: center;
+    letter-spacing: .3em; 
+}
+
+.button-wrapper{
+    text-align: center;
+}
+
+.input-wrapper{
+    text-align: center
+}
+
+#push{
+    width:250px;
+    margin:20px auto;
+    padding:10px 0;
+    letter-spacing: .3em;
+    background-color:red;
+    color:white;
+}
+
+#push:hover{
+ background-color:black;
+ transition: 2s;
+}
+
+
+.footer{
+padding:0 0 2em;
+text-align: center;
+letter-spacing: .4em;
+font-size: 1.3em;
+}
+nav{
+float: right;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a{
+    letter-spacing: .3em;
+    color:red;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color:black;
+
+}
