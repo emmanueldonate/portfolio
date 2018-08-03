@@ -69,5 +69,5 @@ app.get('/', (req, res) => {
 
 
 app.listen(8080, () => {
-    console.log('listening at http://127.0.0.1:8080');
+    console.log('listening at http://localhost:8080');
 });
