@@ -61,6 +61,10 @@ app.get('/', (req, res) => {
 
         res.render('thanks', { contact: req.body })
       });
+
+      app.get('/footer', (req, res) => {
+        res.render('footer');
+      });
       
   
     // Notice now the data is the second argument passed to the template render method
