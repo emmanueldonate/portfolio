@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-
+app.use('/favicon.ico', express.static('favicon_package_v0.16/favicon.ico'));
 app.use(morgan('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true}))
